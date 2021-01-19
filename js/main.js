@@ -53,7 +53,7 @@ setInterval(switchBannersRight,10000);
 /*Start Scroll-Top
 *******************************************************/
 let scrollTopIcon = document.querySelector('.scroll-top');
-window.addEventListener('loadstart',() =>{
+window.addEventListener('load',() =>{
   "use strict";
   if(window.pageYOffset <= 445){
     scrollTopIcon.style.cssText ="opacity:0;";
